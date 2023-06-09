@@ -15,7 +15,6 @@ public class Player : MonoBehaviour
 
         rb = GetComponent<Rigidbody2D>();
 
-
     }
 
     // Update is called once per frame
@@ -33,7 +32,6 @@ public class Player : MonoBehaviour
     {
 
         rb.velocity = new Vector2(0, playerDirection.y * playerSpeed);
-
 
     }
 }
