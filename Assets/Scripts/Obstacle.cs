@@ -4,23 +4,31 @@ using UnityEngine;
 
 public class Obstacle : MonoBehaviour
 {
+    private GameObject player;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
 
-    //usuwanie obiektów wrogów po wejsciu w bordera
+    //niszczenie obiektów wrogów po wejsciu w bordera oraz niszczenie gracza
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "Border")
 
         {
-            Destroy(this.gameObject);
-                
+            Destroy(this.gameObject);   
         }
-        
+
+        else if(collision.tag == "Player")
+        {
+            Destroy(player.gameObject);
+        }
+
     }
 
 
