@@ -413,7 +413,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d7275402bc0d4aba993b6d4b0cf5acb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraSpeed: 16
+  cameraSpeed: 13
 --- !u!4 &421863419
 Transform:
   m_ObjectHideFlags: 0
@@ -1607,7 +1607,7 @@ MonoBehaviour:
   minX: 3
   maxY: 3.9
   minY: -3.9
-  timeBetweenSpawn: 0.7
+  timeBetweenSpawn: 0.8
   spawnTime: 0
 --- !u!1 &1903867206
 GameObject:
