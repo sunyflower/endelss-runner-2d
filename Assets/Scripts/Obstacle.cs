@@ -10,5 +10,18 @@ public class Obstacle : MonoBehaviour
         
     }
 
-  
+
+    //usuwanie obiektów wrogów po wejsciu w bordera
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "Border")
+
+        {
+            Destroy(this.gameObject);
+                
+        }
+        
+    }
+
+
 }
