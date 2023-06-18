@@ -413,7 +413,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d7275402bc0d4aba993b6d4b0cf5acb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraSpeed: 13
+  cameraSpeed: 16
 --- !u!4 &421863419
 Transform:
   m_ObjectHideFlags: 0
@@ -2324,12 +2324,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da8f503b9fe6042b0a65278f89416a31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obstacle: {fileID: 6023208691151862555, guid: b97a88ada21ca4231a8edcb59df736f3, type: 3}
+  obstacle: {fileID: 6023208691151862555, guid: 867e89097165544bebf30e57b0a2135c, type: 3}
   maxX: 3.5
   minX: 3
   maxY: 3.9
   minY: -3.9
-  timeBetweenSpawn: 0.8
+  timeBetweenSpawn: 0.6
   spawnTime: 0
 --- !u!1 &1903867206
 GameObject:
