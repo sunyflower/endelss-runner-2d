@@ -9,7 +9,7 @@ public class LoopingBackground : MonoBehaviour
     public Renderer backgroundRenderer;
 
 
-    // Update is called once per frame
+    //przesuwanie texturki
     void Update()
     {
 

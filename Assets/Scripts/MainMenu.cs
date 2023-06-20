@@ -20,12 +20,13 @@ public class MainMenu : MonoBehaviour
     }
 
 
+    //wybranie levelu 1
     public void SelectLevel1()
     {
         SceneManager.LoadScene("Game");
     }
 
-
+    //wybranie levelu 2
     public void SelectLevel2()
     {
         SceneManager.LoadScene("Game2");

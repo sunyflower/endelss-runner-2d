@@ -6,8 +6,8 @@ public class CameraMovement : MonoBehaviour
 {
     public float cameraSpeed;
 
-    // Update is called once per frame
-    void Update()
+    // praca kamery, sledzenie gracza, lateupdate zeby wszystko sie najpierw updatowalo a potem sama kamera
+    void LateUpdate()
     {
 
         transform.position += new Vector3(cameraSpeed * Time.deltaTime, 0, 0);

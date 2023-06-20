@@ -11,7 +11,7 @@ public class ScoreManager : MonoBehaviour
     private float score;
 
 
-    // Update is called once per frame
+    // dodawanie punktu co sekunde +1
     void Update()
     {
         if(GameObject.FindGameObjectWithTag("Player") != null)

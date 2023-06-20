@@ -9,7 +9,7 @@ public class GameOver : MonoBehaviour
     public GameObject gameOverPanel;
 
 
-    // Update is called once per frame
+    //sprawdzanie czy obiekt player zyje, jesli nie to panel gameover sie pokazuje
     void Update()
     {
 
@@ -21,6 +21,7 @@ public class GameOver : MonoBehaviour
 
     }
 
+    //restart sceny
     public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);

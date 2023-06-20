@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 playerDirection;
 
-    // Start is called before the first frame update
+    //zbiera sie component rigbody
     void Start()
     {
 
@@ -17,7 +17,7 @@ public class Player : MonoBehaviour
 
     }
 
-    // Update is called once per frame
+    // sterowanie w gore, w dol, ustawienia direction
     void Update()
     {
 
@@ -27,7 +27,7 @@ public class Player : MonoBehaviour
     }
 
 
-
+    // ustawianie velocity 
     private void FixedUpdate()
     {
 

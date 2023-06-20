@@ -15,7 +15,7 @@ public class SpawnObstacles : MonoBehaviour
 
 
 
-    // Update is called once per frame
+    // co jakis czas spawnuje sie enemy
     void Update()
     {
         if(Time.time > spawnTime)
@@ -28,6 +28,7 @@ public class SpawnObstacles : MonoBehaviour
     }
 
 
+    // wybieramy randomowa pozycje do spawnowania w przestrzeni 2D, i tworzy obiekt
     void Spawn()
     {
 
